@@ -1,0 +1,113 @@
+---BEGIN DFA definition---
+States: 
+q1 q2 q3 q4 
+Alphabets: 
+0 1 
+Transition Functions: 
+q1 0 q1
+q1 1 q2
+q2 0 q2
+q2 1 q3
+q3 0 q3
+q3 1 q4
+q4 0 q4
+q4 1 q4
+Start State: 
+q1
+Accepted States: 
+q4 
+---END DFA definition---
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q4
+10011 --> ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q4
+11001 --> ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q4
+Current State: q4 Symbol: 0 -> New State: q4
+Current State: q4 Symbol: 0 -> New State: q4
+Current State: q4 Symbol: 0 -> New State: q4
+Current State: q4 Symbol: 0 -> New State: q4
+1110000 --> ACCEPTED
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+0001 --> NOT ACCEPTED
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+01 --> NOT ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q4
+10101 --> ACCEPTED
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q3
+01010 --> NOT ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q4
+Current State: q4 Symbol: 0 -> New State: q4
+Current State: q4 Symbol: 1 -> New State: q4
+110101 --> ACCEPTED
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+0011 --> NOT ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q3
+1010 --> NOT ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+101 --> NOT ACCEPTED
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+011 --> NOT ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q4
+111 --> ACCEPTED
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+000 --> NOT ACCEPTED
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q3
+00110 --> NOT ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q4
+Current State: q4 Symbol: 1 -> New State: q4
+Current State: q4 Symbol: 0 -> New State: q4
+110110 --> ACCEPTED
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q4
+Current State: q4 Symbol: 0 -> New State: q4
+Current State: q4 Symbol: 1 -> New State: q4
+Current State: q4 Symbol: 0 -> New State: q4
+1011010 --> ACCEPTED
